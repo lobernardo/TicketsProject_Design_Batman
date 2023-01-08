@@ -87,10 +87,13 @@ h1{
     width: 600px;
     height: 400px;
     padding: 30px;
-    box-shadow: -1px 1px 18px 8px #7f864c;
+    box-shadow: -1px 1px 18px 8px #292929;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/3XopdGAJGRy3xNQKnQDvaCRs.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -101,29 +104,36 @@ h1{
     display: block;
     color: aliceblue;
     font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: transparent;
     text-align: start;
 }
 
+.formulario ::placeholder{
+    color:black;
+}
 
 .formulario input{
     height: 40px;
     margin: 10px;
+    background-color: rgba(128, 128, 128, 0.59);
 }
 
 
 .text_area{
     display: flex;
     flex-direction: column;
-
 }
 
 
 .txt{
     height:160px;
+    width: 580px;
     margin-top: 10px;
-    padding: 3px;
-    padding-left: 10px;
+    margin-left: 10px;
+    background-color: rgba(93, 91, 91, 0.839);
 }
+
+
 
 .btn_cont{
     width: 200px;
