@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.contact.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="./assets/logo.png" >
+
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+
+                <a href="./comentarios.html">
+                    <li>Coment<span>á</span>rios</li>
+                </a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner"></div>
+
+    <div id="contato">
+
+        <h1>Entre em contato através do formulário a seguir!</h1>
+
+        <form action="./contato.html" class="formulario">
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite o seu nome" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Digite o seu email" required>
+
+            <span>Deseja receber novidades?</span>
+            <div class="options">
+                <input id="sim" type="radio" name="news" value="sim" checked>
+                <label for="sim">Sim</label>
+                <input id="nao" type="radio" name="news" value="nao" checked>
+                <label for="nao">Não</label>
+            </div>
+              
+                    <label for="mensagem">Envie sua mensagem:</label>
+                    <textarea type="text" class="txt" placeholder="Digite aqui a sua mensagem"></textarea>  
+                    <input type="submit" class="btn_cont" name="action" value="Enviar">
+               
+        </form>
+
+    </div>  
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./assets/logo.png" />
+        <span>Todos os direitos reservados ©</span> 
+        <span>Desenvolvido por: Leo Bernardo</span>
+
+        <nav class="footer_navigate">
+            <ul class="footer_list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+                
+            </ul>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>

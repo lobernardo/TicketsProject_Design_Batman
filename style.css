@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Kdam+Thmor+Pro&family=Moon+Dance&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700&family=Rowdies&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 26px;
+    transition: .5s;
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+li span{
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+
+li:hover{
+    color: #7f864c;
+    transform: scale(1.1);
+}
+
+#logo{
+    width: 120px;
+    height: auto;
+}
+
+#banner{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/72c90880-a922-4b5d-aa67-6a058d88f48b/d3idj3c-c0e3ab91-32d1-4e57-859b-051c872ea0f6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzcyYzkwODgwLWE5MjItNGI1ZC1hYTY3LTZhMDU4ZDg4ZjQ4YlwvZDNpZGozYy1jMGUzYWI5MS0zMmQxLTRlNTctODU5Yi0wNTFjODcyZWEwZjYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4mRTDDj8mHfSCbeXI_CTT4jD_IxfJfIXJUS-ULp0-70');
+    background-position: 50% 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+#trailer_container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:100px;
+
+}
+
+.description{
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width:100%;
+    
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: #dc930d;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.actor_cards_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards_content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner_1{
+    background-image: url('https://br.web.img2.acsta.net/r_1280_720/medias/nmedia/18/36/32/70/18826075.jpg');
+
+}
+
+.banner_2{
+    background-image: url('https://www.fatosdesconhecidos.com.br/wp-content/uploads/2017/09/Hermoine-5.jpg');
+}
+
+.banner_3{
+    background-image: url('https://i.pinimg.com/originals/90/80/16/908016be8e5df24269f070aea7123200.jpg');
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer_navigate{
+    display: none;
+}
+
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media(max-width:768px){
+    .footer_navigate{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 40%;
+    }
+
+    #trailer_container{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+     
+        align-items: center;
+    }
+
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .trailer{
+        width: 100%;
+    }
+
+    .sinopse{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards_content{
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+}
