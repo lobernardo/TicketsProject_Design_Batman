@@ -144,3 +144,35 @@ span{
     align-items: center;
 }
 
+
+@media(max-width:768px){
+    .footer_navigate{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 20%;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+ #pic_container{
+    height: 400px;
+ }
+
+ .footer_navigate{
+    margin-bottom: 20px;
+}
+
+
+    footer span{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}

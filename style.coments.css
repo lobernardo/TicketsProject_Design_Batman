@@ -150,3 +150,50 @@ span{
     flex-direction: column;
     align-items: center;
 }
+
+
+
+@media(max-width:768px){
+    .footer_navigate{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 80%;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+#coments{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_coments{
+    width: 80%;
+    height: 280px;
+}
+
+.footer_navigate{
+    margin-bottom: 20px;
+}
+
+    footer span{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}

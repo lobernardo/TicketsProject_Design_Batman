@@ -172,3 +172,37 @@ span{
     flex-direction: column;
     align-items: center;
 }
+
+@media(max-width:768px){
+    .footer_navigate{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #banner{
+        background-position: 99%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    .formulario{
+        width: 60%;
+    }
+
+    .footer_navigate{
+        margin-bottom: 20px;
+    }
+    
+
+    footer span{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
