@@ -202,6 +202,10 @@ span{
         font-size: 18px;
     }
 
+    .txt{
+        height:90px;
+        width: 290px;
+    }
     .formulario{
         width: 60%;
     }
